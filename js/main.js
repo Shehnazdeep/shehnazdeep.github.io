@@ -5,10 +5,36 @@ document.addEventListener('DOMContentLoaded', function () {
     // Mobile menu toggle
     const hamburger = document.querySelector('.hamburger');
     const body = document.body;
+    const themeToggle = document.getElementById('theme-toggle');
+    // Check for saved theme in localStorage
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark') {
+        document.body.setAttribute('data-theme', 'dark');
+    } else {
+        document.body.setAttribute('data-theme', 'light');
+    }
 
+    // Toggle theme on button click
+    themeToggle.addEventListener('click', () => {
+        const isDark = document.body.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+            document.body.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+        } else {
+            document.body.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }
+    });
     if (hamburger) {
         hamburger.addEventListener('click', function () {
             body.classList.toggle('mobile-nav-active');
+
+            // Ensure dark theme remains active when mobile nav is opened
+            if (document.body.getAttribute('data-theme') === 'dark') {
+                body.classList.add('dark'); // Add the dark theme class if it's dark
+            } else {
+                body.classList.remove('dark'); // Remove dark theme class if it's light
+            }
         });
     }
 
