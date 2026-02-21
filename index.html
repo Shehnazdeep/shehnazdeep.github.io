@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shehnaz Kaur Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="left-group">
+                <div class="logo"> SK 🤍</div>
+            </div>
+            <div class="right-group">
+                <button aria-label="theme-toggle btn" id="theme-toggle" class="header__sun">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+                    </svg>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <!-- <li><a href="#experience">Experience</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                        <!-- <li id="theme-toggle" aria-label="Toggle theme">
+                        🔆 
+                    </li> -->
+
+                        <li><a href="Resumee.pdf" class="resume-btn" target="_blank">Resume</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="intro">Hi, My name is</p>
+                <h1>Shehnazdeep Kaur</h1>
+
+                <p>I'm a fourth-year Computer Science student at Sheridan College with a passion for coding, art, and
+                    problem-solving.I love creating intuitive and elegant solutions that blend technology with
+                    creativity. </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="myPhoto.jpg" alt="Shehnazdeep Kaur">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a fourth-year Computer Science student majoring in Mobile Computing at Sheridan College,
+                        graduating in December 2025. My
+                        academic journey has equipped me with strong theoretical knowledge and practical skills in
+                        software development, algorithms, and system design.</p>
+                    <br>
+                    <p>Currently, I'm seeking a Spring/Summer 2025 internship opportunity to apply my skills in a
+                        professional environment and learn from industry experts. I'm particularly interested in web
+                        development, mobile applications, and cloud technologies.</p>
+                    <br>
+                    <p>Besides programming, I love cooking, Yoga and painting 💜</p>
+                    <br>
+                </div>
+                <div class="about-cards">
+                    <div class="card">
+                        <h3> <i class="fas fa-code"></i>
+                            Web Development</h3>
+                        <p>Creating responsive, user-friendly web applications with modern technologies.</p>
+                        <br>
+                    </div>
+                    <div class="card">
+                        <h3> <i class="fab fa-apple"></i> <!-- iOS Development Icon -->
+                            iOS Development</h3>
+                        <p>Creating Full Stack iOS Apps with Cloud Backend.</p>
+                        <br>
+                    </div>
+                    <div class="card">
+                        <h3> <i class="fas fa-book-open"></i>
+                            Continuous Learning</h3>
+                        <p>Constantly expanding my knowledge and skills through courses, projects, and research.</p>
+                        <br>
+                    </div>
+                    <div class="card">
+                        <h3> <i class="fas fa-coffee"></i>
+                            Problem Solving</h3>
+                        <p>Approaching challenges with analytical thinking and creative solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <!-- Skill categories here -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">Swift</span>
+                        <span class="skill-badge"> C#</span>
+                        <span class="skill-badge"> C</span>
+                        <span class="skill-badge"> Dart</span>
+                        <span class="skill-badge"> Python</span>
+                        <span class="skill-badge"> Java</span>
+                        <span class="skill-badge"> C++</span>
+                        <span class="skill-badge"> HTML5</span>
+                        <span class="skill-badge"> CSS</span>
+                        <span class="skill-badge"> JavaScript</span>
+                        <span class="skill-badge"> MySQL</span>
+                    </div>
+                </div>
+                <br>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">React.js</span>
+                        <span class="skill-badge"> React Native</span>
+                        <span class="skill-badge"> Angular</span>
+                        <span class="skill-badge"> Node.js</span>
+                        <span class="skill-badge"> Express.js</span>
+                        <span class="skill-badge"> Next.js</span>
+                        <span class="skill-badge"> Spring Boot</span>
+                        <span class="skill-badge"> Flutter</span>
+                        <span class="skill-badge"> ASP.NET</span>
+                        <span class="skill-badge"> GraphQL</span>
+
+                    </div>
+                </div>
+                <br>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skills-list">
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge"> NoSQL</span>
+                        <span class="skill-badge"> MongoDB</span>
+                        <span class="skill-badge"> AWS</span>
+                        <span class="skill-badge"> Azure</span>
+                        <span class="skill-badge"> Docker</span>
+                        <span class="skill-badge"> Linux</span>
+                        <span class="skill-badge"> Firebase</span>
+                        <span class="skill-badge"> JIRA</span>
+                        <span class="skill-badge"> Confluence</span>
+                        <span class="skill-badge"> Figma</span>
+                        <span class="skill-badge"> Selenium</span>
+                        <span class="skill-badge"> Unity</span>
+                    </div>
+                </div>
+                <!-- More skill categories -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="instaclone.webp" alt="Instagram-like Backend"> -->
+
+                    </div>
+                    <div class="project-info">
+                        <h3>InstaClone <a href="https://github.com/Shehnazdeep/BackendAPI" target="_blank"
+                                class="btn small">(GitHub)</a></h3>
+                        <p>A backend API for a social media platform inspired by Instagram. The API supports user
+                            authentication, photo uploads, and feed generation, allowing users to post pictures
+                            and view others' posts. Built using ASP.NET, C#, and SQL Server.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">ASP.NET</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">REST API</span>
+                            <span class="tech-badge">SQL Server</span>
+                            <span class="tech-badge">Entity Framework</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="instaclone.webp" alt="Instagram-like Backend"> -->
+
+                    </div>
+                    <div class="project-info">
+                        <h3>TutorConnect <a href="https://github.com/Shehnazdeep/TutorConnect---WebApp" target="_blank"
+                                class="btn small">(GitHub)</a></h3>
+                        <p>A web application designed to connect students with tutors based on subject expertise,
+                            availability, and preferred delivery modes. Developed using ASP.NET Core, Entity Framework
+                            Core, and SQL database, with front-end views built using HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">ASP.NET Core</span>
+                            <span class="tech-badge">Entity Framework Core</span>
+                            <span class="tech-badge">SQL Database</span>
+                            <span class="tech-badge">HTML/CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="instaclone.webp" alt="Instagram-like Backend"> -->
+
+                    </div>
+                    <div class="project-info">
+                        <h3>SaveThisSpot <a href="https://github.com/Shehnazdeep/IOS-Project---SaveThisSpot-main"
+                                target="_blank" class="btn small">(GitHub)</a></h3>
+                        <p>An iOS application designed to help users save and manage their favorite locations
+                            efficiently. Collaborated with a team member to conceptualize and develop the app using
+                            Swift. Designed a user-friendly interface, integrated Firebase for user authentication and
+                            data security, and implemented map integration for a visual representation of saved
+                            locations.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Swift</span>
+                            <span class="tech-badge">iOS Development</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">Map Integration</span>
+                            <span class="tech-badge">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="instaclone.webp" alt="Instagram-like Backend"> -->
+
+                    </div>
+                    <div class="project-info">
+                        <h3>Rent Ledger <a href="https://github.com/ZubearNassimi/PROG-20261-Final-Project"
+                                target="_blank" class="btn small">(GitHub)</a></h3>
+                        <p>A mobile application developed using Flutter and Dart to help landlords manage tenant
+                            profiles and track rent payments. Collaborated with a team member to implement a local
+                            database for storing tenant data and an authentication process for secure access.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Dart</span>
+                            <span class="tech-badge">Android Studio</span>
+                            <span class="tech-badge">Local Database</span>
+                            <span class="tech-badge">Authentication</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- More project cards -->
+            </div>
+            <!-- More project cards -->
+            <br>
+            <div class="projects-more">
+                <a href="https://github.com/Shehnazdeep" class="btn outline-btn">See More on GitHub</a>
+            </div>
+        </div>
+
+        <!-- </div> -->
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <p class="section-description">View my full resume or download a copy for your records.</p>
+            <br>
+            <div class="resume-download">
+                <a href="Resumee.pdf" download="Shehnazdeep_Kaur_Resume.pdf" class="btn primary-btn">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+
+            </div>
+            <div class="resume-preview">
+                <br>
+                <iframe src="Resumee.pdf" title="Resume"></iframe>
+                <!-- <p>Your browser doesn't support iframes. Please download the resume instead.</p> -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h2>Shehnazdeep Kaur</h2>
+                    <p>Computer Science student at Sheridan College, passionate about building clean, user-friendly
+                        applications.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="social-links">
+                        <a href="https://github.com/Shehnazdeep" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/shehnazkaur" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+
+                        <a href="mailto:kaur6200@sheridancollege.ca"><i class="fas fa-envelope"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Shehnaz Kaur. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
