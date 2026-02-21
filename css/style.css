@@ -339,6 +339,7 @@ h2 {
     color: var(--primary-color);
 }
 
+
 .tech-badge {
     font-weight: bold;
 }
@@ -367,6 +368,24 @@ h2 {
 .project-description {
     font-size: 0.9em;
     color: #666;
+}
+
+.project-links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.project-links a {
+    font-size: 0.9rem;
+    color: #9b7ede;
+    /* match your purple */
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
 }
 
 [data-theme="dark"] {
