@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shehnazdeepkaur/MyWebapp/MyWebapp.csproj",
+      "projectUniqueName": "/Users/shehnazdeepkaur/Documents/Personal Projects/MyPortfolio/shehnazdeep.github.io/MyWebapp/MyWebapp.csproj",
       "projectName": "MyWebapp",
-      "projectPath": "/Users/shehnazdeepkaur/MyWebapp/MyWebapp.csproj",
+      "projectPath": "/Users/shehnazdeepkaur/Documents/Personal Projects/MyPortfolio/shehnazdeep.github.io/MyWebapp/MyWebapp.csproj",
       "packagesPath": "/Users/shehnazdeepkaur/.nuget/packages/",
-      "outputPath": "/Users/shehnazdeepkaur/MyWebapp/obj/",
+      "outputPath": "/Users/shehnazdeepkaur/Documents/Personal Projects/MyPortfolio/shehnazdeep.github.io/MyWebapp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shehnazdeepkaur/.nuget/NuGet/NuGet.Config"
@@ -54,6 +54,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -62,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
